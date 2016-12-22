@@ -1,11 +1,9 @@
-
 #!/bin/ruby -w
 
 =begin
 Swap the key-values in a hash.
 {key=>value} to {value=>key}
 =end
-
 
 myhash = { 'India' => 'ND',
 	   'France' => 'FRA',
@@ -33,9 +31,9 @@ puts myhash
 
 myhash = { 'India' => 'ND',
            'France' => 'FRA', #This will be ignored
-	   'Germany' => 'BE',
-	   'France' => 'PA'
-	 }
+           'Germany' => 'BE',
+           'France' => 'PA'
+           }
 puts myhash['France'] 
 
 ### Output: PA. FRA is ignored.
