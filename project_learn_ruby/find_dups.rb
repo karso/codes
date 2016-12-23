@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 
 =begin
-Given an array of numbers find the duplicates
+Given an array of numbers find the duplicates without using lib functions.
 =end
 
 int_arr1 = [2, 1, 0, 1, 1, 9, 8, 3, 2, 0, 0, 1, 2, 0, 1, 4, 11, 5, 1, 9, 82]
