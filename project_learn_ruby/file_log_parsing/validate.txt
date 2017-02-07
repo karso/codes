@@ -1,0 +1,10 @@
+Issue ID: SOMEID-12345
+Feature Name: "New Feature"
+Feature Description: 
+1. "Description Line 1"
+2. "Description Line 2"
+3. "Description Line 3"
+To Do:
+1. "Do this."
+2. "Do that."
+Author: me.myself@home.com
