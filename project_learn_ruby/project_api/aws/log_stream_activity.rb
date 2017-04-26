@@ -1,28 +1,34 @@
 require 'aws-sdk'
 require 'date'
 require 'logger'
+require 'yaml'
 
-LogFile = '/tmp/monitorlogstream.log'
-Max_LogFile_Size = 1024000 # 1MB
-Keep_LogFile = 10
-LogLevel = Logger::INFO # DEBUG < INFO < WARN < ERROR < FATAL < UNKNOWN
-LogFormat = '%Y-%m-%d %H:%M:%S'
-DefaultRegion =  'us-east-1'
-InactiveThreshold = 1800 # 30 mins
+begin
+  conf_def = YAML.load_file('config.yml').fetch('Def')
+  conf_log = YAML.load_file('config.yml').fetch('Log')
+rescue StandardError => e
+  puts "Failed to load config file 'config.yml'"
+  puts e
+end
+
+LogFile = conf_log['FilePath']
+Keep_LogFile = conf_log['KeepHistory']
+Max_LogFile_Size = conf_log['MaxSize']
+LogLevel = 'Logger::' + conf_log['Level']
+LogFormat = conf_log['Format']
 
 begin
   logger = Logger.new(LogFile, Keep_LogFile, Max_LogFile_Size)
-rescue StandardError=>e
+rescue StandardError => e
   puts "Error creating LogFile: #{e}"
 end
 
 logger.level = LogLevel
 logger.datetime_format = LogFormat
-
-@TIMEDIFF = InactiveThreshold
+@TIMEDIFF = conf_def['InactiveThreshold']
 
 begin
-  client = Aws::CloudWatchLogs::Client.new(region: DefaultRegion)
+  client = Aws::CloudWatchLogs::Client.new(region: conf_def['Region'])
   resp1 = client.describe_log_groups()
   resp1.log_groups.each do |lg|
     resp2 = client.describe_log_streams({
