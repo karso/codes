@@ -5,7 +5,7 @@
 # What is the smallest positive number that is evenly divisible by all of the
 # numbers from 1 to 20?
 
-LIM = 10
+LIM = 20
 divsor = 2
 prod = 1
 

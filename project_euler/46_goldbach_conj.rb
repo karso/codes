@@ -33,12 +33,17 @@ def nextOcNum(num)
 end
 
 
-def GBNum(num)
-  
-end
-
-while GBNum(oc_num)
-  oc_num = nextOcNum(oc_num)
+def GBNum(num) 
+  divs = num - 1 
+  while divs > 1
+    if Prime.prime(divs)
+      tmp_num = num - divs
+      if tmp_num % 2 == 0 and Math.sqrt(tmp_num / 2) 
+        tmp_num /= 2
+      end
+    else
+      divs -= 1
+  end
 end
 
 puts oc_num
