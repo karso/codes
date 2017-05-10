@@ -22,7 +22,7 @@ except StandardError as e:
 
 try:  
   for lg in response1['logGroups']:
-    response2 = client.describe_log_streamss(logGroupName=lg['logGroupName'])
+    response2 = client.describe_log_streams(logGroupName=lg['logGroupName'])
     for ls in response2['logStreams']:
       if (int(round(time.time())) - timeDiff) < (ls['lastIngestionTime'] / 1000):
         logging.info("The " + lg['logGroupName'] + "::" + ls['logStreamName'] + " LogStream is working fine.")
