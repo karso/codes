@@ -7,6 +7,8 @@ def isPrime(num):
   elif (num == 1):
     print 'I think \'1\' is prime but not too sure. Use caution.'
     exit()
+  elif (num == 2):
+    return True
   elif (num % 2 == 0):
     return False
   else:
