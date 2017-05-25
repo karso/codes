@@ -4,7 +4,7 @@ import sys, time
 from datetime import datetime
 
 ''' 
-Two environment variable neeed to be defined. 
+Two environment variables need to be defined. 
 TIME_DIFF => Acceptable period of inactivity. Def 30 mins.
 LG_NAME => LogGroup Name. Def 'test'.
 '''
