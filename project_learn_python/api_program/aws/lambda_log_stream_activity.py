@@ -4,9 +4,10 @@ import sys, time
 from datetime import datetime
 
 ''' 
-Two environment variables need to be defined. 
+Three environment variables need to be defined. 
 TIME_DIFF => Acceptable period of inactivity. Def 30 mins.
 LG_NAME => LogGroup Name. Def 'test'.
+REGION => The AWS region where the LogGroup is. Def 'us-east-1'
 '''
 
 try:
@@ -20,7 +21,7 @@ except:
 
 def check_ls_activity(event, context):
   try:
-    region = event['region']
+    region = os.environ['REGION']
   except:
     region = 'us-east-1'
   failedLS = 'Failed LogStreams: '
@@ -43,3 +44,4 @@ def check_ls_activity(event, context):
     print(e)
   if (failedLS != 'Failed LogStreams: '):      
     raise Exception(failedLS)
+    
