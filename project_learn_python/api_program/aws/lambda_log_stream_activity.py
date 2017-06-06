@@ -19,8 +19,12 @@ except:
   lgName = 'test'
 
 def check_ls_activity(event, context):
+  try:
+    region = event['region']
+  except:
+    region = 'us-east-1'
   failedLS = 'Failed LogStreams: '
-  client = boto3.client('logs')
+  client = boto3.client('logs', region_name=region)
   try:
     response1 = client.describe_log_groups(logGroupNamePrefix=lgName)
   except StandardError as e:
@@ -39,5 +43,3 @@ def check_ls_activity(event, context):
     print(e)
   if (failedLS != 'Failed LogStreams: '):      
     raise Exception(failedLS)
-    
-
