@@ -1,0 +1,92 @@
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'02891024-c1e1-42fd-86f7-24f2eca68992', u'Description': u'Default master key that protects my EBS volumes when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 2, 25, 23, 0, 54, 604000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/02891024-c1e1-42fd-86f7-24f2eca68992', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '97c8d6e9-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '97c8d6e9-6919-11e7-b8f4-0337c57a9585', 'content-length': '406', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:50 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: 1be372c4-6ffa-4f81-a00c-8921445b3e76
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'21bc7f82-3cee-4e08-9c2a-29acccb08b4a', u'Description': u'LORIC Default Key', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 6, 9, 1, 51, 19, 60000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/21bc7f82-3cee-4e08-9c2a-29acccb08b4a', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '981bb1d7-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '981bb1d7-6919-11e7-b8f4-0337c57a9585', 'content-length': '351', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:50 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'2ff94d1d-e1de-487a-a64c-8a42415c9f42', u'Description': u'Default master key that protects my ACM private keys when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2016, 7, 29, 6, 26, 50, 565000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/2ff94d1d-e1de-487a-a64c-8a42415c9f42', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '98595709-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '98595709-6919-11e7-b8f4-0337c57a9585', 'content-length': '411', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:50 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: 517ada07-43c5-4b08-8531-7d78846eb8c1
+
+
+
+
+I do not have access to this key: 588e6ea3-2d3e-4e5e-817a-c5f8eaa3f1ea
+
+
+
+
+I do not have access to this key: 618a36fc-1e60-4c90-bf43-f1b18410575f
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'68f153b6-5e86-42a2-bb96-de64700da0f0', u'Description': u'Default master key that protects my WorkMail mailboxes when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 10, 19, 16, 28, 55, 969000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/68f153b6-5e86-42a2-bb96-de64700da0f0', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '98f87d7c-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '98f87d7c-6919-11e7-b8f4-0337c57a9585', 'content-length': '413', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:52 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: 76472262-9b48-4456-8acb-c5a51087ba46
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'7797d28e-7f66-41fe-8810-e84c3d9c5624', u'Description': u'Default master key that protects my Lightsail signing keys when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2017, 5, 9, 13, 54, 43, 917000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/7797d28e-7f66-41fe-8810-e84c3d9c5624', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '99469d6f-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '99469d6f-6919-11e7-b8f4-0337c57a9585', 'content-length': '417', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:52 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: 81945427-05be-4688-9a01-3f265d92b29c
+
+
+
+
+I do not have access to this key: 838addbc-92e1-4741-825e-7010d774236a
+
+
+
+
+I do not have access to this key: 8b50a783-7e09-4961-8209-de521afaa042
+
+
+
+
+I do not have access to this key: 9280386e-eb57-4746-bedf-703c43bf8906
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'99424bbb-02bf-4202-800e-5c0783251832', u'Description': u'san', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 2, 25, 16, 24, 22, 201000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/99424bbb-02bf-4202-800e-5c0783251832', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9cb90719-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9cb90719-6919-11e7-b8f4-0337c57a9585', 'content-length': '338', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:58 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'aabfb1f1-2046-4232-b571-8b7e3e1203ce', u'Description': u'Default master key that protects my CodeCommit repositories when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2016, 9, 29, 23, 48, 23, 193000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/aabfb1f1-2046-4232-b571-8b7e3e1203ce', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9d002243-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9d002243-6919-11e7-b8f4-0337c57a9585', 'content-length': '418', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:53:59 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: aee82fcf-f5c6-448e-84d0-dab392c98e4b
+
+
+
+
+I do not have access to this key: b92f5744-260b-4772-98a9-9b225b75fa31
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'c11a0d09-3db2-43e2-99b5-6c792e1964d4', u'Description': u'Default master key that protects my CodeCommit repositories when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2016, 9, 29, 23, 48, 22, 668000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/c11a0d09-3db2-43e2-99b5-6c792e1964d4', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9de32f6d-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9de32f6d-6919-11e7-b8f4-0337c57a9585', 'content-length': '418', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:00 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: c22cdbfc-cbad-467c-9b93-31af34fba132
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'ce1a653c-d200-4537-bfb6-d064134398b0', u'Description': u'Default master key that protects my Lightsail signing keys when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2017, 5, 9, 13, 54, 43, 796000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/ce1a653c-d200-4537-bfb6-d064134398b0', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9e34ab0d-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9e34ab0d-6919-11e7-b8f4-0337c57a9585', 'content-length': '417', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:00 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: e66b52d7-9aa0-417b-a606-e7b3ebcd0db6
+
+
+
+
+I do not have access to this key: eb2cf5a4-4448-47fd-9f95-3e6b886eed32
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'ec10e791-8fa8-4628-a29f-24af7d74793a', u'Description': u'Default master key that protects my Lambda functions when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2017, 5, 25, 11, 0, 35, 234000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/ec10e791-8fa8-4628-a29f-24af7d74793a', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9ecc5798-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9ecc5798-6919-11e7-b8f4-0337c57a9585', 'content-length': '411', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:01 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: ecb505f6-3eab-4c69-83e7-22b5c1d098b6
+
+
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'f36b9b3e-4f36-43b2-8a35-1e3d41b9b896', u'Description': u'', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 12, 30, 14, 16, 9, 382000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/f36b9b3e-4f36-43b2-8a35-1e3d41b9b896', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9f2bb570-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9f2bb570-6919-11e7-b8f4-0337c57a9585', 'content-length': '335', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:02 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'f8ed3880-73b6-4c64-a5cd-d7a88a747c1a', u'Description': u'', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 8, 11, 17, 25, 30, 281000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/f8ed3880-73b6-4c64-a5cd-d7a88a747c1a', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '9f54c0f6-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': '9f54c0f6-6919-11e7-b8f4-0337c57a9585', 'content-length': '335', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:02 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+{u'KeyMetadata': {u'Origin': u'AWS_KMS', u'KeyId': u'fa90a29c-4d59-455f-a312-e22ddfd2ca4d', u'Description': u'Default master key that protects my RDS database volumes when no other key is defined', u'Enabled': True, u'KeyUsage': u'ENCRYPT_DECRYPT', u'KeyState': u'Enabled', u'CreationDate': datetime.datetime(2015, 9, 22, 11, 25, 11, 343000, tzinfo=tzlocal()), u'Arn': u'arn:aws:kms:us-east-1:500066283637:key/fa90a29c-4d59-455f-a312-e22ddfd2ca4d', u'AWSAccountId': u'500066283637'}, 'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': 'a1b7de67-6919-11e7-b8f4-0337c57a9585', 'HTTPHeaders': {'x-amzn-requestid': 'a1b7de67-6919-11e7-b8f4-0337c57a9585', 'content-length': '415', 'server': 'Server', 'connection': 'keep-alive', 'date': 'Sat, 15 Jul 2017 04:54:06 GMT', 'content-type': 'application/x-amz-json-1.1'}}}
+
+
+I do not have access to this key: fc50653b-b173-48a2-a5e7-3139135458de
+
