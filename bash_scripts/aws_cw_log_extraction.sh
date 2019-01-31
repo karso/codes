@@ -42,13 +42,13 @@ while [ $# -ne 0 ]; do
 	shift
 done
 
-: '
+# : '
 echo $REGION
 echo $LGNAME
 echo $LSNAME
 echo $MITEMS
 echo $PROF
-'
+# '
 
 for line in $(aws logs describe-log-streams \
 					--log-group-name $LGNAME \
