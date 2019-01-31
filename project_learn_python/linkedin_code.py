@@ -1,4 +1,4 @@
-"""This was a hallenge problem from LinkedIn
+"""This was a challenge problem from LinkedIn
 	It iterates over a range.
 	If the number is divisible by 2; prints Linked.
 	If the number is divisible by 3; prints In.

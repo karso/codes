@@ -8,6 +8,7 @@ import json
 
 jfile = open('apprity_properties.json', 'r') 
 line = jfile.read()
+print line
 jline = json.loads(line)
 array_of_dics = jline['apprity_properties_common']
 for item in array_of_dics:
