@@ -17,7 +17,7 @@ def findUsage():
     usedKeys = len(kmsResponseListKeys['Keys'])
     return usedKeys
 
-def compareKeys(keyLimit, keyInuse):
+def perUsage(keyLimit, keyInuse):
     if keyLimit < keyInuse:
         return "Something is wrong! KeyUsage can't be higher than KeyLimit!"
     else:
@@ -30,4 +30,4 @@ if __name__ == '__main__':
         print keyLimit
         exit(1)
     keyInuse = findUsage()
-    print "Percentage of Available Keys is", compareKeys(keyLimit, keyInuse)
+    print "Percentage of Available Keys is", perUsage(keyLimit, keyInuse)

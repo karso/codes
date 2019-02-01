@@ -29,11 +29,11 @@ class TestKMSUsage(unittest.TestCase):
     '''
     Test comparison module.
     '''
-    def test_compareKeys(self):
-        self.assertEqual(kms_usage.compareKeys(10, 3), 70)
-        self.assertEqual(kms_usage.compareKeys(10, 0), 100)
-        self.assertEqual(kms_usage.compareKeys(10, 10), 0)
-        self.assertEqual(kms_usage.compareKeys(10, 12), "Something is wrong! KeyUsage can't be higher than KeyLimit!")
+    def test_perUsage(self):
+        self.assertEqual(kms_usage.perUsage(10, 3), 70)
+        self.assertEqual(kms_usage.perUsage(10, 0), 100)
+        self.assertEqual(kms_usage.perUsage(10, 10), 0)
+        self.assertEqual(kms_usage.perUsage(10, 12), "Something is wrong! KeyUsage can't be higher than KeyLimit!")
     
     
     
