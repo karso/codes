@@ -1,0 +1,54 @@
+May 25 09:40:31 localhost haproxy[800]: 10.0.1.211:51248 [25/May/2015:09:40:31.068] web-frontend web-backend/web2 1/0/1/0/2 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 09:40:32 localhost haproxy[800]: 10.0.1.211:51248 [25/May/2015:09:40:31.071] web-frontend web-backend/web1 1143/0/0/1/1144 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 09:40:33 localhost haproxy[800]: 10.0.1.211:51248 [25/May/2015:09:40:32.215] web-frontend web-backend/web2 1127/0/0/1/1128 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 09:40:34 localhost haproxy[800]: 10.0.1.211:51248 [25/May/2015:09:40:33.344] web-frontend web-backend/web1 904/0/0/0/904 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:17 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:17.712] web-frontend web-backend/web1 0/0/0/1/1 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:18 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:17.713] web-frontend web-backend/web2 945/0/1/0/946 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:19 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:18.659] web-frontend web-backend/web1 1003/0/0/1/1004 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:20 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:19.663] web-frontend web-backend/web2 848/0/0/1/849 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:36 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:20.512] web-frontend web-backend/web1 15583/0/0/0/15583 200 353 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:37 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:36.094] web-frontend web-backend/web2 1081/0/0/1/1082 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:38 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:37.177] web-frontend web-backend/web1 955/0/0/0/955 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:39 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:38.131] web-frontend web-backend/web2 940/0/1/0/941 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:39 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:39.072] web-frontend web-backend/web1 922/0/0/1/923 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:30:40 localhost haproxy[1141]: 10.0.1.211:58433 [25/May/2015:10:30:39.995] web-frontend web-backend/web2 870/0/0/1/871 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:31:59 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:31:59.664] web-frontend web-backend/web1 1/0/0/1/2 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:00 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:31:59.666] web-frontend web-backend/web2 902/0/1/1/904 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:01 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:00.569] web-frontend web-backend/web1 912/0/0/0/912 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:02 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:01.481] web-frontend web-backend/web2 812/0/1/0/813 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:03 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:02.294] web-frontend web-backend/web1 880/0/0/0/880 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:03 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:03.173] web-frontend web-backend/web2 796/0/0/1/797 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:04 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:03.971] web-frontend web-backend/web1 789/0/0/1/790 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 10:32:05 localhost haproxy[1141]: 10.0.1.211:58996 [25/May/2015:10:32:04.760] web-frontend web-backend/web2 837/0/1/1/839 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 13:42:27 localhost haproxy[1141]: 10.0.1.211:59107 [25/May/2015:13:42:27.449] web-frontend web-backend/web1 1/0/1/0/2 200 353 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 13:42:28 localhost haproxy[1141]: 10.0.1.211:59107 [25/May/2015:13:42:27.452] web-frontend web-backend/web2 1182/0/1/1/1184 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 13:42:29 localhost haproxy[1141]: 10.0.1.211:59107 [25/May/2015:13:42:28.636] web-frontend web-backend/web1 1068/0/0/1/1069 200 353 - - ---- 2/2/0/0/0 0/0 "GET / HTTP/1.1"
+May 25 13:42:33 localhost haproxy[1141]: 10.0.1.211:59107 [25/May/2015:13:42:29.705] web-frontend web-backend/web2 3549/0/1/1/3551 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+May 25 14:30:12 localhost haproxy[1141]: Server web-backend/web2 is DOWN, reason: Layer4 timeout, check duration: 2002ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+May 26 04:39:47 localhost haproxy[800]: Proxy admin started.
+May 26 04:39:47 localhost haproxy[800]: Proxy web-backend started.
+May 26 04:39:47 localhost haproxy[800]: Proxy web-frontend started.
+May 26 04:39:47 localhost haproxy[800]: Server web-backend/web1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+May 26 04:39:50 localhost haproxy[801]: Server web-backend/web2 is DOWN, reason: Layer4 timeout, check duration: 2001ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+May 26 04:39:50 localhost haproxy[801]: backend web-backend has no server available!
+May 26 04:40:02 localhost haproxy[801]: Server web-backend/web2 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+Jun 11 05:18:03 localhost haproxy[800]: Proxy admin started.
+Jun 11 05:18:03 localhost haproxy[800]: Proxy web-backend started.
+Jun 11 05:18:03 localhost haproxy[800]: Proxy web-frontend started.
+Jun 11 05:18:03 localhost haproxy[800]: Server web-backend/web1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+Jun 11 05:18:06 localhost haproxy[801]: Server web-backend/web2 is DOWN, reason: Layer4 timeout, check duration: 2002ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+Jun 11 05:18:06 localhost haproxy[801]: backend web-backend has no server available!
+Jun 11 05:18:25 localhost haproxy[801]: Server web-backend/web2 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+Jun 11 05:22:13 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:13.950] web-frontend web-backend/web2 0/0/0/45/45 200 307 - - ---- 2/2/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:22:14 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:13.996] web-frontend web-backend/web2 263/0/0/1/264 404 415 - - ---- 2/2/0/1/0 0/0 "GET /favicon.ico HTTP/1.1"
+Jun 11 05:22:41 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:14.259] web-frontend web-backend/web2 26902/0/1/1/26904 304 114 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:22:43 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:41.163] web-frontend web-backend/web2 2670/0/0/1/2671 304 114 - - ---- 4/4/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:22:44 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:43.834] web-frontend web-backend/web2 1050/0/0/0/1050 304 114 - - ---- 4/4/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:22:45 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:44.885] web-frontend web-backend/web2 1088/0/0/1/1089 304 114 - - ---- 4/4/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:22:47 localhost haproxy[801]: 10.0.1.211:64142 [11/Jun/2015:05:22:45.974] web-frontend web-backend/web2 1341/0/0/0/1341 304 114 - - ---- 4/4/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:23:58 localhost haproxy[801]: Server web-backend/web1 is UP, reason: Layer4 check passed, check duration: 0ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+Jun 11 05:24:16 localhost haproxy[801]: 10.0.1.211:64195 [11/Jun/2015:05:24:14.509] web-frontend web-backend/web2 1930/0/1/1/1932 304 114 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:24:18 localhost haproxy[801]: 10.0.1.211:64195 [11/Jun/2015:05:24:16.440] web-frontend web-backend/web1 2161/0/1/0/2162 200 353 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:24:19 localhost haproxy[801]: 10.0.1.211:64195 [11/Jun/2015:05:24:18.603] web-frontend web-backend/web2 1387/0/1/1/1389 200 307 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:24:21 localhost haproxy[801]: 10.0.1.211:64195 [11/Jun/2015:05:24:19.992] web-frontend web-backend/web1 1193/0/0/1/1194 200 353 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
+Jun 11 05:24:22 localhost haproxy[801]: 10.0.1.211:64195 [11/Jun/2015:05:24:21.185] web-frontend web-backend/web2 1330/0/1/1/1332 200 307 - - ---- 1/1/0/1/0 0/0 "GET / HTTP/1.1"
