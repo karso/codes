@@ -5,17 +5,17 @@
 	If the number is divisible by both 2 and 3; it prints LinkedIn.
 """
 
-print "Here comes the hotstepper..."	
-print "Taking a range of 1 to 10"
+print("Here comes the hotstepper...")	
+print("Taking a range of 1 to 10")
 for i in range (1, 11):
 	if i % 6 == 0:
-		print "LinkedIn"
+		print("LinkedIn")
 	elif i % 3 == 0:
-		print "In"
+		print("In")
 	elif i % 2 == 0:
-		print "Linked"
+		print("Linked")
 	else:
-		print i
+		print(i)
 
 	
 
